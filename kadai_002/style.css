@@ -1,0 +1,47 @@
+/* タイピングゲーム全体 */
+body {
+    font-size: 6em;
+    text-align: center;
+}
+
+/* ゲームの残り秒数が表示されるタイマーの領域 */
+.count {
+    margin: 0;
+    font-weight: bold;
+    color: #888;
+}
+
+/* スコア表示の領域 */
+.score {
+    margin: 0;
+    font-size: 0.5em;
+    font-weight: bold;
+    color: #888;
+}
+
+/* テキストが表示される領域 */
+.wrap {
+    margin-top: 20px;
+    padding: 80px 40px;
+    background-color: #666;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* 正しくタイプされた場合のテキスト */
+.typed {
+    color: lightgreen;
+}
+
+/* ミスタイプの場合の背景 */
+.mistyped {
+    background-color: red;
+}
+
+/* タイムアップメッセージ */
+#timeUp {
+    font-size: 1em; /* .wrap内のフォントサイズに合わせる */
+    font-weight: bold;
+    color: #fff; /* .wrap内のテキスト色に合わせる */
+    text-align: center;
+}
